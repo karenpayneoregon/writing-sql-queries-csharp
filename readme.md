@@ -1,4 +1,4 @@
-# About Writing SQL for your application
+# Writing SQL for your application
 
 Common practice for developers is to write SQL statements directly in code using SELECT * FROM some table, run the SQL using a connection and command objects and get unexpected results back. This article will provide methods for writing SQL statements outside of code along with creating a unit test to ensure when placing SQL statements into code if unexpected results are returned they can be attributed to improperly written code.
 
